@@ -1,0 +1,42 @@
+/* Navbar Container */
+.custom-navbar {
+  padding: 10px 0;
+  transition: 0.3s ease;
+}
+
+/* Logo Styling */
+.logo-text {
+  color: #ffcc00 !important;
+  letter-spacing: 1px;
+}
+
+/* Menu Items */
+.menu-items .nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+  margin-left: 18px;
+  transition: 0.3s;
+}
+
+.menu-items .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Book Table Button */
+.book-btn {
+  background-color: #ffcc00;
+  border-radius: 25px;
+  transition: 0.3s;
+  color: #000 !important;
+}
+
+.book-btn:hover {
+  background-color: #e6b800;
+}
+
+/* Add shadow when scrolling */
+.custom-navbar.scrolled {
+  background-color: #000 !important;
+  padding: 6px 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
